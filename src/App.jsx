@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <div className="max-w-screen ">
+    <div className="max-w-screen mt-12">
       <h2 className="text-center text-2xl font-semibold">
         Calculadora de Presión Arterial Media (PAM)
       </h2>
@@ -43,7 +43,7 @@ function App() {
         </Label>
       </div>
       <div></div>
-      <div className="mt-10 flex justify-center flex-col items-center max-w-screen">
+      <div className="mt-6 flex justify-center flex-col items-center gap-8">
         <div>
           <Button onClick={calculatePAM}>Calcular PAM</Button>
         </div>
